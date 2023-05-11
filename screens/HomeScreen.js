@@ -75,16 +75,19 @@ export default function HomeScreen() {
         <FeaturedRows
           id="1"
           title="featured"
+          uriimg="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=1600"
           description="paid placements from our partners"
         />
         <FeaturedRows
           id="2"
           title="featured"
+          uriimg="https://media.istockphoto.com/id/1054319798/photo/group-of-happy-friends-having-breakfast-in-the-restaurant.jpg?s=1024x1024&w=is&k=20&c=blCOInHsj568EuLdwvP5BP-TVAWXLjfdePSImWUo6bM="
           description="paid placements from our partners"
         />
         <FeaturedRows
           id="3"
           title="featured"
+          uriimg="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=1600"
           description="paid placements from our partners"
         />
       </ScrollView>

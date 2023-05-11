@@ -2,6 +2,7 @@ import { View, Text } from 'react-native';
 import React from 'react';
 import { Image } from 'react-native';
 import { ScrollView } from 'react-native';
+import RestaurantCard from './RestaurantCard';
 
 const FeaturedRows = (props) => {
   return (
@@ -15,14 +16,50 @@ const FeaturedRows = (props) => {
       </View>
       <Text className="text-xs text-gray-500 px-4 ">{props.description} </Text>
       <ScrollView
-        horizantal
+        horizontal
         contentContaineStyle={{
           paddingHorizantal: 15,
         }}
         showsHorizontalScrollIndicator={false}
-        className="pt-4"
+        className="pt-4 space-x-2"
       >
         {/*Restaurants Card */}
+        <RestaurantCard
+          id={123}
+          imgurl={props.uriimg}
+          title="yo ! pizza"
+          rating={5}
+          genre="Italian"
+          adress="1253 main street"
+          short_desc="this is a description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgurl={props.uriimg}
+          title="yo ! pizza"
+          rating={5}
+          genre="Italian"
+          adress="1253 main street"
+          short_desc="this is a description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgurl={props.uriimg}
+          title="yo ! pizza"
+          rating={5}
+          genre="Italian"
+          adress="1253 main street"
+          short_desc="this is a description"
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
       </ScrollView>
     </View>
   );

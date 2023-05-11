@@ -6,6 +6,7 @@ module.exports = {
     './screens/**/*.{js,jsx,ts,tsx}',
     ,
     './screens/HomeScreen.js',
+    './components/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {},
